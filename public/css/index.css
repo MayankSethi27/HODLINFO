@@ -273,3 +273,28 @@ tbody tr {
     font-size: 4rem;
 
 }
+/* counter css */
+#timer{
+    color: white;
+}
+.countdown-container {
+    position: relative;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .countdown-circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 4px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .countdown-number {
+    font-size: 2rem;
+  }
